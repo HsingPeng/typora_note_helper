@@ -70,6 +70,30 @@
 
 主要是目录显示和内容全局搜索两大块。
 
+## 使用说明
+
+### 要求
+
+- python3
+- find、grep命令
+- 类unix环境
+
+### 测试通过
+
+环境：
+- python 3.6.5
+- MacOS 12.12/12.13
+
+### 运行
+
+1. 打开 note_helper.py 文件，在 root_path 填入正确的笔记根目录。
+2. `python note_helper.py`运行程序。
+
+### 截图
+
+![文件目录界面](http://wx2.sinaimg.cn/mw690/0060lm7Tly1ftzcxc8jxsj30rs0t0jvm.jpg)
+![搜索界面](http://wx4.sinaimg.cn/mw690/0060lm7Tly1ftzcxcs1rtj30rs0t00xi.jpg)
+
 ## 进展
 
 笔记目录部分完成，目录功能基本可用。
@@ -95,24 +119,16 @@
 建议想认真开发GUI程序的别使用tkinter，用qt比较靠谱。
 tkinter的资料太少了，接口很难找。
 
-## 使用说明
+### 历史版本
 
-### 要求
+#### V0.1
 
-- python3
-- find、grep命令
-- 类unix环境
+时间
+- 2018-08-06 01:28:27
 
-### 测试通过
-
-环境：
-- python 3.6.5
-- MacOS 12.12/12.13
-
-### 运行
-
-1. 打开 note_helper.py 文件，在 root_path 填入正确的笔记根目录。
-2. `python note_helper.py`运行程序。
+功能
+- 基础的文件目录浏览
+- 基础的内容全局搜索
 
 ### 遇到的坑
 
