@@ -74,9 +74,9 @@
 
 ### 要求
 
-- python3
+- Python3
 - find、grep命令
-- 类unix环境
+- Mac OS
 
 ### 测试通过
 
@@ -86,8 +86,9 @@
 
 ### 运行
 
-1. 打开 note_helper.py 文件，在 root_path 填入正确的笔记根目录。
-2. `python note_helper.py`运行程序。
+1. 设置 Typora 为md文件默认的打开程序。
+2. 打开 note_helper.py 文件，在 root_path 填入正确的笔记根目录。
+3. `python note_helper.py`运行程序。
 
 ### 截图
 
